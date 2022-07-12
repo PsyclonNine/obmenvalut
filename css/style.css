@@ -1,0 +1,248 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+	background-image: url('../img/table-back.svg');
+
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	/* block model */
+	width: 100%;
+
+	/* decor */
+	background-color: #191b1b;
+
+	border-bottom: 2px solid #fdbe14;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.title-head {
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 25px;
+	/* identical to box height */
+	text-align: center;
+
+	color: #fdbe14;
+}
+
+.header-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.logo-text {
+	display: inline;
+	padding: 0;
+
+	font-size: 50px;
+	font-weight: 500;
+
+	color: #fdbe14;
+}
+
+.tel-number {
+	font-size: 50px;
+	font-weight: 500;
+
+	color: #fdbe14;
+}
+
+.exchange-title {
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.tg-sub {
+	/* block model */
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 36px;
+	/* identical to box height */
+	text-align: center;
+
+	color: #ffffff;
+}
+
+.table-exchange {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid #fdbe14;
+	background-color: #191b1b;
+	border-radius: 10px;
+}
+
+.table-head {
+	font-size: 26px;
+	line-height: 36px;
+	/* identical to box height */
+	text-align: center;
+
+	color: #fdbe14;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.table-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.table-text {
+	padding: 5px;
+	font-size: 18px;
+	font-weight: 500;
+	/* identical to box height */
+	text-align: center;
+	color: #fff;
+}
+
+.valuta {
+	width: 223px;
+	padding: 10px;
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+	color: #fdbe14
+}
+
+.buy,
+.sell {
+	padding: 10px;
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+}
+
+.table-item:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.description {
+	font-size: 13px;
+	line-height: 20px;
+	color: #fdbe14;
+}
+
+.description:first-child {
+	margin-bottom: 10px;
+}
+
+.description a {
+	text-decoration: none;
+	color: #fdbe14
+}
+
+.btn-calc {
+	align-self: center;
+	padding: 10px;
+	background-color: #fdbe14;
+	border-radius: 5px;
+	color: #000;
+}
