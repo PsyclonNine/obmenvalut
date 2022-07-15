@@ -91,9 +91,13 @@ h6 {
 /*--------------------*/
 
 body {
-	background-image: url('../img/table-back.svg');
+
 
 	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	background-image: url('../img/table-back.svg');
 }
 
 header {
@@ -104,6 +108,15 @@ header {
 	background-color: #191b1b;
 
 	border-bottom: 2px solid #fdbe14;
+}
+
+footer {
+	width: 100%;
+
+	/* decor */
+	background-color: #191b1b;
+
+	border-top: 2px solid #fdbe14;
 }
 
 .container {
@@ -194,6 +207,7 @@ header {
 }
 
 .table-text {
+	margin-right: 5px;
 	padding: 5px;
 	font-size: 18px;
 	font-weight: 500;
@@ -207,6 +221,7 @@ header {
 	padding: 10px;
 	font-size: 48px;
 	font-weight: 600;
+	letter-spacing: 2px;
 	text-align: center;
 	color: #fdbe14
 }
@@ -225,6 +240,7 @@ header {
 }
 
 .description {
+	padding-left: 10px;
 	font-size: 13px;
 	line-height: 20px;
 	color: #fdbe14;
@@ -241,8 +257,90 @@ header {
 
 .btn-calc {
 	align-self: center;
+	margin-right: 10px;
 	padding: 10px;
 	background-color: #fdbe14;
 	border-radius: 5px;
 	color: #000;
+}
+
+.opt-exchange {
+	margin-top: 35px;
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.opt-important {
+	font-size: 24px;
+	color: #fdbe14;
+}
+
+.opt-important a {
+	text-decoration: none;
+	color: #fdbe14;
+}
+
+.string {
+	width: 100%;
+	background-color: #fdbe14;
+}
+
+.run-string-box {
+	margin-bottom: 50px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.adress-head {
+	margin-bottom: 50px;
+}
+
+.adress-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-bottom: 70px;
+}
+
+.adress-image-box {
+	display: inline-block;
+	padding: 20px;
+	border: 2px solid #fdbe14;
+	border-radius: 10px;
+	background-color: #191b1b;
+}
+
+.adress-image {
+	width: 350px;
+	height: 350px;
+}
+
+.adress-text {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fdbe14;
+}
+
+.tel-text {
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	text-decoration: none;
+	color: #fdbe14;
+}
+
+.link-box {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.footer-link-box {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
 }
